@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_array - a function that print a elements of an array
  * @a: array number
