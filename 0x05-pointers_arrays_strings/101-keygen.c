@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - progress that generates random valid
  * passwords for the program 101-crackme
- * Return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,7 +13,9 @@ int main(void)
 	int i, sum, n;
 
 	sum = 0;
+
 	srand(time(NULL));
+
 	for (i = 0; i < 100; i++)
 	{
 		pass[i] = rand() % 78;
