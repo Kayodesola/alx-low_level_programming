@@ -26,10 +26,10 @@ char *argstostr(int ac, char **av)
 {
 	int i = 0, nc = 0, j = 0, cmpt = 0;
 	char *s;
-	
+
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	
+
 	for (; i < ac; i++, nc++)
 		nc += _strlen(av[i]);
 
